@@ -1,3 +1,20 @@
+import java.util.*;
+
+public class SpiralOrderRunner {
+    public static void main(String[] args) {
+        int[][] matrix = {
+                {1, 2, 3},
+                {4, 5, 6},
+                {7, 8, 9}
+        };
+
+        Solution solution = new Solution();
+        List<Integer> result = solution.spiralOrder(matrix);
+
+        System.out.println("Spiral order traversal: " + result);
+    }
+}
+
 class Solution {
     public List<Integer> spiralOrder(int[][] matrix) {
         ArrayList<Integer> list = new ArrayList<>();
