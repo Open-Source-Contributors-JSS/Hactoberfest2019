@@ -1,4 +1,5 @@
 [
+  
   {
     "title": "git init",
     "description": "The git init command creates a new Git repository. It can be used to convert an existing, unversioned project to a Git repository or initialize a new, empty repository."
@@ -118,6 +119,10 @@
   {
     "title": "git status",
     "description": "The git status command lists all new or modified files to be committed."
+  },
+    {
+    "title": "git revert",
+    "description": " This command creates a new commit that undoes the changes from a previous commit. It does not modify the existing commit history, unlike git reset. It's used when you want to undo a commit while keeping the commit history intact."
   },
   {
     "title": "git clean",
